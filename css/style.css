@@ -4,6 +4,7 @@
 }
 li{
     list-style: none;
+
 }
 a{
      text-decoration: none;
@@ -77,3 +78,20 @@ margin: 70px 0;
 .bg-black{
     margin: 50px 0;
 }
+ @media (max-width: 575.98px) { 
+    .menu_bar ul{
+        flex-direction: column;
+    }
+    #banner_images_text .text_images{
+       background-size:cover;
+       padding: 30px;  
+    }
+    #banner_images_text .text_images h1{ 
+        font-weight:500;
+        font-size: 28px;
+        line-height: 27px;    
+    }
+    #Nav_bar .button{
+margin-right: 100px;
+    }
+ }
