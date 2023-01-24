@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+     text-decoration: none;
+}
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* *cmn css end  */
+#Nav_bar{
+    margin: 60px 0;
+}
+#Nav_bar .menu_bar a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+} 
+#Nav_bar .button{
+    display: block;
+    text-align: right;
+    padding: 10px;
+    border-radius: 8px;  
+}
+#Nav_bar .button a {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* nav bar end  */
+/* banner part start  */
+#banner_images_text .text_images{
+    background-image: url(../images/banner.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 150px;  
+}
+#banner_images_text .text_images h1{ 
+    font-family: 'EB Garamond';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#banner_images_text .text_images p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+
+
+#Practice_section .Practice_Area{
+margin: 70px 0;
+}
+
+#Frequently_section .Frequently_questions{
+    margin: 70px 0;
+}
+.bg-black{
+    margin: 50px 0;
+}
